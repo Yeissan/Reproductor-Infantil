@@ -1,0 +1,163 @@
+<!--
+  player_musica_infantil.html
+  Página sencilla y responsive para reproducir una pista de audio infantil.
+
+  INSTRUCCIONES RÁPIDAS:
+  1) Reemplaza los valores de AUDIO_URL y COVER_URL aquí abajo.
+  2) Guarda este archivo como index.html y súbelo a tu repositorio en GitHub.
+  3) Habilita GitHub Pages (Settings -> Pages) para la rama principal o la carpeta /docs.
+  4) El enlace público generado por GitHub Pages será la URL que puedes usar para el QR.
+
+  NOTAS:
+  - Muchos móviles no permiten autoplay sin interacción; por eso el botón play es grande y visible.
+  - Si tu audio está en raw.githubusercontent.com usa esa URL como AUDIO_URL.
+  - Si quieres varias pistas, duplica el bloque <li> en la lista de canciones.
+-->
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Música del libro - Reproductor infantil</title>
+  <meta name="description" content="Reproductor sencillo para la música infantil del libro. Pulsa el gran botón para escuchar.">
+  <style>
+    :root{--bg:#fff8f0;--card:#ffffff;--accent:#ff7aa2;--accent2:#ffd36e;--text:#333}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:linear-gradient(180deg,var(--bg),#fff); color:var(--text); display:flex; align-items:center; justify-content:center; min-height:100vh; padding:20px}
+    .player{width:100%; max-width:760px; background:var(--card); border-radius:20px; box-shadow:0 10px 30px rgba(0,0,0,0.08); padding:28px; display:grid; grid-template-columns:160px 1fr; gap:20px; align-items:center}
+    .cover{width:160px; height:160px; border-radius:18px; overflow:hidden; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg,var(--accent),var(--accent2));}
+    .cover img{width:100%; height:100%; object-fit:cover; display:block}
+    h1{font-size:20px; margin:0 0 6px 0}
+    p.lead{margin:0 0 14px 0; font-size:14px; opacity:0.9}
+    .bigplay{display:flex; gap:12px; align-items:center}
+    .playbtn{width:84px; height:84px; border-radius:50%; border:none; background:linear-gradient(180deg,var(--accent),#ff5b8a); color:white; font-size:34px; display:grid; place-items:center; box-shadow:0 8px 18px rgba(255,90,140,0.28); cursor:pointer}
+    .playbtn:active{transform:scale(0.98)}
+    .controls{display:flex; flex-direction:column; gap:10px}
+    audio{width:100%; outline:none}
+    .meta{display:flex; gap:8px; align-items:center; font-size:13px}
+    .badge{background:#f0f7ff; color:#175b9a; padding:6px 10px; border-radius:999px; font-weight:600}
+    .extras{display:flex; gap:8px; margin-top:8px}
+    .btn{padding:8px 12px; border-radius:12px; border:none; cursor:pointer; font-weight:600}
+    .btn.secondary{background:#f3f3f3}
+    .btn.link{background:transparent; color:var(--accent)}
+    .tracklist{margin-top:12px; list-style:none; padding:0; display:flex; gap:8px}
+    .tracklist li{background:#fff7f9; padding:8px 12px; border-radius:12px; font-size:14px}
+    footer{grid-column:1/-1; margin-top:12px; font-size:12px; opacity:0.8}
+    @media (max-width:560px){.player{grid-template-columns:1fr; padding:18px}.cover{width:120px;height:120px;margin:0 auto}.bigplay{justify-content:center}.playbtn{width:76px;height:76px}}
+  </style>
+</head>
+<body>
+  <main class="player" role="region" aria-label="Reproductor de música infantil">
+    <div class="cover" aria-hidden="true">
+      <!-- REEMPLAZA COVER_URL por la URL de la imagen de portada (opcional) -->
+      <img id="coverImg" src="COVER_URL" alt="Portada del audio" onerror="this.style.display='none'">
+    </div>
+
+    <div>
+      <h1>Música del libro: "Título del cuento"</h1>
+      <p class="lead">Canción infantil pensada para acompañar la lectura. Pulsa el botón grande para reproducir.</p>
+
+      <div class="bigplay">
+        <button id="playButton" class="playbtn" aria-label="Reproducir">▶</button>
+        <div class="controls">
+          <!-- REEMPLAZA AUDIO_URL por la URL directa al archivo .mp3 en GitHub o donde lo alojes -->
+          <audio id="audio" preload="none">
+            <source id="audioSource" src="AUDIO_URL" type="audio/mpeg">
+            Tu navegador no soporta audio.
+          </audio>
+
+          <div class="meta">
+            <span class="badge">3:12</span>
+            <span id="status">Listo para reproducir</span>
+          </div>
+
+          <div class="extras">
+            <button id="downloadBtn" class="btn secondary">Descargar</button>
+            <button id="openBtn" class="btn link">Abrir en nueva pestaña</button>
+          </div>
+
+          <ul class="tracklist" id="tracklist">
+            <li>Track 1 · Canción principal</li>
+          </ul>
+        </div>
+      </div>
+
+      <footer>
+        Consejo: si lo subes a GitHub, activa GitHub Pages y usa la URL pública para generar tu código QR.
+      </footer>
+    </div>
+
+    <script>
+      // --- Cambia aquí si quieres personalizar desde el código ---
+      const AUDIO_URL = 'AUDIO_URL'; // reemplazar por la URL directa al mp3
+      const COVER_URL = 'COVER_URL'; // reemplazar por la URL de la portada (opcional)
+
+      const audio = document.getElementById('audio');
+      const src = document.getElementById('audioSource');
+      const playBtn = document.getElementById('playButton');
+      const status = document.getElementById('status');
+      const downloadBtn = document.getElementById('downloadBtn');
+      const openBtn = document.getElementById('openBtn');
+      const coverImg = document.getElementById('coverImg');
+
+      // Setear URLs desde constantes
+      if (AUDIO_URL && AUDIO_URL !== 'AUDIO_URL') {
+        src.src = AUDIO_URL;
+        audio.load();
+      }
+      if (COVER_URL && COVER_URL !== 'COVER_URL') {
+        coverImg.src = COVER_URL;
+        coverImg.style.display = 'block';
+      }
+
+      function updatePlayIcon(){
+        playBtn.textContent = audio.paused ? '▶' : '⏸';
+      }
+
+      playBtn.addEventListener('click', ()=>{
+        if (!audio.src){
+          alert('No se ha configurado la URL del audio. Reemplaza AUDIO_URL en el archivo.');
+          return;
+        }
+        if (audio.paused){
+          audio.play();
+        } else {
+          audio.pause();
+        }
+      });
+
+      audio.addEventListener('play', ()=>{ status.textContent = 'Reproduciendo'; updatePlayIcon(); });
+      audio.addEventListener('pause', ()=>{ status.textContent = 'Pausado'; updatePlayIcon(); });
+      audio.addEventListener('ended', ()=>{ status.textContent = 'Finalizado'; updatePlayIcon(); });
+      audio.addEventListener('error', ()=>{ status.textContent = 'Error al cargar el audio'; });
+
+      downloadBtn.addEventListener('click', ()=>{
+        if (!audio.src) return alert('Configura AUDIO_URL antes de descargar.');
+        const a = document.createElement('a');
+        a.href = audio.src;
+        a.download = '';
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+      });
+
+      openBtn.addEventListener('click', ()=>{
+        if (!audio.src) return alert('Configura AUDIO_URL antes de abrir.');
+        window.open(audio.src, '_blank');
+      });
+
+      // Mostrar duración si es posible
+      audio.addEventListener('loadedmetadata', ()=>{
+        const dur = audio.duration;
+        if (!isNaN(dur)){
+          const minutes = Math.floor(dur/60);
+          const seconds = Math.floor(dur%60).toString().padStart(2,'0');
+          document.querySelector('.badge').textContent = `${minutes}:${seconds}`;
+        }
+      });
+
+    </script>
+  </main>
+</body>
+</html>
