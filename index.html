@@ -46,7 +46,7 @@
     </div>
 
     <script>
-      // Playlist lista para usar. Reemplaza cada URL por tus MP3 reales.
+      // Playlist lista para usar. Agrega más canciones luego.
       const playlist = [
         { name: "El Lápiz que Nació del Árbol", url: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/refs/heads/main/El Lápiz que Nació del Árbol.mp3" }
       ];
@@ -55,6 +55,13 @@
       const tracklist = document.getElementById('tracklist');
       const playBtn = document.getElementById('playButton');
       let currentTrack = 0;
+
+      // Leer parámetro ?track= para abrir la canción deseada
+      function getTrackFromURL(){
+        const params = new URLSearchParams(window.location.search);
+        const t = params.get('track');
+        return t ? parseInt(t) : 0;
+      }
 
       // Cargar lista visual
       playlist.forEach((track, index) => {
@@ -80,7 +87,7 @@
 
       playBtn.addEventListener('click', () => {
         if (!audio.src){
-          loadTrack(0);
+          loadTrack(currentTrack);
           return;
         }
         if (audio.paused) audio.play(); else audio.pause();
@@ -93,8 +100,9 @@
         if (next < playlist.length) loadTrack(next);
       });
 
-      // Iniciar destacando primera pista
-      highlightTrack();
+      // Iniciar con canción indicada en la URL o primera
+      currentTrack = getTrackFromURL();
+      loadTrack(currentTrack);
     </script>
   </main>
 </body>
