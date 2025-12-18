@@ -13,10 +13,10 @@ const songs = [
     cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La%20herramienta%20Magica.png"
   },
   {
-    title: "El Lápiz que Nacio del Árbol",
+    title: "El Lápiz que Nació del Árbol",
     artist: "SkyBooks+AI",
-    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El Lápiz que Nacio del Árbol.mp3",
-    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El Lápiz que Nacio del Árbol.png"
+    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El Lápiz que Nació del Árbol.mp3",
+    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El Lápiz que Nació del Árbol.png"
   },
   {
     title: "La Silla Amiga",
@@ -93,8 +93,8 @@ const songs = [
   {
     title: "La Historia del helado",
     artist: "SkyBooks+AI",
-    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La Historia del Helado.mp3",
-    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/la Historia del Helado.png"
+    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La Historia del helado.mp3",
+    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/la Historia del helado.png"
   }
 ];
 
