@@ -113,4 +113,37 @@ audio::-webkit-media-controls-play-button {
     width: 180px;
     height: 180px;
   }
+  .song-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.song-card {
+  background: #fff3d6;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  transition: transform 0.2s;
+}
+
+.song-card:hover {
+  transform: scale(1.05);
+}
+
+.song-card img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.song-card span {
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #ff6b2b;
+  font-weight: bold;
+}
+
 }
