@@ -91,15 +91,34 @@ function playSong() {
 function pauseSong() {
   audio.pause();
 }
+function createSongGrid() {
+  songGrid.innerHTML = "";
+
+  songs.forEach((song, index) => {
+    const card = document.createElement("div");
+    card.className = "song-card";
+    card.innerHTML = `
+      <img src="${song.cover}" alt="${song.title}">
+      <span>${song.title}</span>
+    `;
+
+    card.onclick = () => {
+      currentSongIndex = index;
+      loadSong(index);
+    };
+
+    songGrid.appendChild(card);
+  });
+}
 
 // Cargar la primera canción al iniciar
 window.onload = function() {
   if (songs.length > 0) {
-    fillSongList();
+    createSongGrid();
     loadSong(0);
-    songSelect.value = "0";
   }
 };
+
 
 
 // Manejar errores de carga de imagen
