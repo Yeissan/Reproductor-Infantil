@@ -5,20 +5,10 @@ const title = document.getElementById('title');
 // Lista de canciones con sus títulos
 const songs = [
   {url: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La%20herramienta%20Magica.mp3", title: "La herramienta Mágica"},
-  {url: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El%20payaso%20Risitas.mp3", title: "El payaso Risitas"},
-  {url: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Los%20animales%20de%20la%20granja.mp3", title: "Los animales de la granja"},
-  {url: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El%20tren%20chiquitito.mp3", title: "El tren chiquitito"},
-  {url: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La%20marcha%20de%20las%20vocales.mp3", title: "La marcha de las vocales"},
-  {url: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El%20abecedario%20cantado.mp3", title: "El abecedario cantado"},
-  {url: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Los%20colores%20del%20arcoiris.mp3", title: "Los colores del arcoiris"},
-  {url: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La%20canción%20de%20los%20números.mp3", title: "La canción de los números"},
-  {url: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El%20patito%20feo.mp3", title: "El patito feo"},
-  {url: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Las%20ruedas%20del%20autobús.mp3", title: "Las ruedas del autobús"},
-  {url: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Estrellita%20dónde%20estás.mp3", title: "Estrellita dónde estás"},
-  {url: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La%20familia%20dedo.mp3", title: "La familia dedo"},
-  {url: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Cumpleaños%20feliz%20infantil.mp3", title: "Cumpleaños feliz infantil"},
-  {url: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La%20gallina%20turuleca.mp3", title: "La gallina turuleca"},
-  {url: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El%20señor%20don%20Gato.mp3", title: "El señor don Gato"}
+  {url: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El Lápiz que Nació del Árbol.mp3", title: "El Lápiz que Nació del Árbol"},
+  {url: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La Silla Amiga.mp3", title: "La Silla Amiga"},
+  {url: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El zapato explorador.mp3", title: "El zapato explorador"},
+  {url: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La Historia del helado.mp3", title: "La Historia del helado"}
 ];
 
 function changeSong() {
