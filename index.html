@@ -103,6 +103,15 @@
         audio.play();
         playBtn.textContent = '⏸';
         highlightTrack();
+        const coverImg = document.getElementById('coverImg');
+
+    function loadTrack(index){
+      currentTrack = index;
+      audio.src = playlist[index].url;
+      coverImg.src = playlist[index].cover;
+      audio.play();
+      playBtn.textContent = '⏸';
+      highlightTrack();
       }
 
       playBtn.addEventListener('click', () => {
