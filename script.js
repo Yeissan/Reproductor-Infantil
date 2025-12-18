@@ -11,19 +11,29 @@ let isPlaying = false;
 const playlist = [
   {
     name: "La herramienta mágica",
-    url: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La%20herramienta%20Magica.mp3",
-    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/herramienta%20magica.png"
+    url: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La herramienta Magica.mp3",
+    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La herramienta Magica.png"
   },
   {
     name: "El lápiz que nació del árbol",
-    url: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El%20Lápiz%20que%20Nació%20del%20Árbol.mp3",
-    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Gemini_Generated_Image_wzgqhpwzgqhpwzgq.png"
+    url: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El Lápiz que Nació del Árbol.mp3",
+    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El Lápiz que Nació del Árbol.png"
   },
   {
     name: "La silla amiga",
-    url: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La%20Silla%20Amiga.mp3",
-    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/la%20silla%20amiga.png"
-  }
+    url: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La Silla Amiga.mp3",
+    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La Silla Amiga.png"
+  },
+  {
+    name: "El zapato explorador",
+    url: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El zapato explorador.mp3",
+    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El zapato explorador.png"
+  },
+  {
+    name: "La Historia del helado",
+    url: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La Historia del helado.mp3",
+    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La Historia del helado.png"
+  },
 ];
 
 function loadTrack(index) {
