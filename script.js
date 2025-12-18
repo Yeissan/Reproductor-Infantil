@@ -98,6 +98,15 @@ const songs = [
   }
 ];
 
+function fillSongList() {
+  songSelect.innerHTML = "";
+  songs.forEach((song, index) => {
+    const option = document.createElement("option");
+    option.value = index;
+    option.textContent = "🎵 " + song.title;
+    songSelect.appendChild(option);
+  });
+}
 // Canción actual
 let currentSongIndex = 0;
 
@@ -146,10 +155,12 @@ function pauseSong() {
 // Cargar la primera canción al iniciar
 window.onload = function() {
   if (songs.length > 0) {
+    fillSongList();
     loadSong(0);
     songSelect.value = "0";
   }
 };
+
 
 // Manejar errores de carga de imagen
 cover.onerror = function() {
