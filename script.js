@@ -31,66 +31,6 @@ const songs = [
     cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El zapato explorador.png"
   },
   {
-    title: "La marcha de las vocales",
-    artist: "SkyBooks+AI",
-    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La%20marcha%20de%20las%20vocales.mp3",
-    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La%20marcha%20de%20las%20vocales.png"
-  },
-  {
-    title: "El abecedario cantado",
-    artist: "SkyBooks",
-    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El%20abecedario%20cantado.mp3",
-    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El%20abecedario%20cantado.png"
-  },
-  {
-    title: "Los colores del arcoiris",
-    artist: "SkyBooks",
-    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Los%20colores%20del%20arcoiris.mp3",
-    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Los%20colores%20del%20arcoiris.png"
-  },
-  {
-    title: "La canción de los números",
-    artist: "SkyBooks",
-    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La%20canción%20de%20los%20números.mp3",
-    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La%20canción%20de%20los%20números.png"
-  },
-  {
-    title: "El patito feo",
-    artist: "SkyBooks",
-    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El%20patito%20feo.mp3",
-    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El%20patito%20feo.png"
-  },
-  {
-    title: "Las ruedas del autobús",
-    artist: "SkyBooks",
-    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Las%20ruedas%20del%20autobús.mp3",
-    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Las%20ruedas%20del%20autobús.png"
-  },
-  {
-    title: "Estrellita dónde estás",
-    artist: "SkyBooks",
-    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Estrellita%20dónde%20estás.mp3",
-    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Estrellita%20dónde%20estás.png"
-  },
-  {
-    title: "La familia dedo",
-    artist: "SkyBooks",
-    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La%20familia%20dedo.mp3",
-    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La%20familia%20dedo.png"
-  },
-  {
-    title: "Cumpleaños feliz infantil",
-    artist: "SkyBooks",
-    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Cumpleaños%20feliz%20infantil.mp3",
-    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Cumpleaños%20feliz%20infantil.png"
-  },
-  {
-    title: "La gallina turuleca",
-    artist: "SkyBooks",
-    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La%20gallina%20turuleca.mp3",
-    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La%20gallina%20turuleca.png"
-  },
-  {
     title: "La Historia del helado",
     artist: "SkyBooks+AI",
     audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La Historia del helado.mp3",
