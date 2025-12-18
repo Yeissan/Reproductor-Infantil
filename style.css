@@ -30,7 +30,7 @@ body {
 #title {
   color: #ff6b2b;
   margin: 10px 0 5px 0;
-  font-size: 24px;
+  font-size: 26px;
   min-height: 32px;
 }
 
@@ -51,7 +51,7 @@ body {
   border-radius: 15px;
   border: 2px solid #ff914d;
   font-family: 'Comic Sans MS', Arial, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   background-color: #fff9f0;
   cursor: pointer;
   transition: all 0.3s;
@@ -68,12 +68,12 @@ body {
 }
 
 .buttons button {
-  font-size: 28px;
+  font-size: 32px;
   margin: 10px;
   border: none;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   background: #ff914d;
   color: white;
   cursor: pointer;
