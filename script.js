@@ -93,7 +93,7 @@ const songs = [
     title: "La Historia del Helado",
     artist: "SkyBooks+AI",
     audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La Historia del helado.mp3",
-    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/la Historia del helado.png"
+    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La Historia del helado.png"
   }
 ];
 
