@@ -44,13 +44,13 @@ const songs = [
   {
     title: "Lampara de ilusiones",
     artist: "SkyBooks",
-    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Lampara de ilusiones.mp3",
+    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Lampara de iluciones.mp3",
     cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Lampara de ilusiones.png"
   },
   {
     title: "La canción de los números",
     artist: "SkyBooks",
-    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La%20canción%20de%20los%20números.mp3",
+    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Lampara%de%iluciones.mp3",
     cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La%20canción%20de%20los%20números.png"
   },
   {
