@@ -36,16 +36,16 @@ const songs = [
     cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El libro Sabio.png"
   },
   {
-    title: "El abecedario cantado",
+    title: "El reloj maestro",
     artist: "SkyBooks",
-    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El%20abecedario%20cantado.mp3",
-    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El%20abecedario%20cantado.png"
+    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El reloj maestro.mp3",
+    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El reloj maestro.png"
   },
   {
-    title: "Los colores del arcoiris",
+    title: "Lámpara de ilusiones",
     artist: "SkyBooks",
-    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Los%20colores%20del%20arcoiris.mp3",
-    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Los%20colores%20del%20arcoiris.png"
+    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Lampara de ilusiones.mp3",
+    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Lampara de ilusiones.png"
   },
   {
     title: "La canción de los números",
