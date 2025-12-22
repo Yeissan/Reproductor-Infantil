@@ -42,7 +42,7 @@ const songs = [
     cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El reloj maestro.png"
   },
   {
-    title: "Lámpara de ilusiones",
+    title: "Lampara de ilusiones",
     artist: "SkyBooks",
     audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Lampara de ilusiones.mp3",
     cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Lampara de ilusiones.png"
