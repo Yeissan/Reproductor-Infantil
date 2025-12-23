@@ -15,7 +15,7 @@ const songs = [
     title: "El Lápiz que Nació del Árbol",
     artist: "SkyBooks+AI",
     audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El Lápiz que Nació del Árbol.mp3",
-    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El Lápiz que Nació del Árbol.png"
+    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El%20l%C3%A1piz%20que%20Naci%C3%B3%20del%20%C3%81rbol.png"
   },
   {
     title: "La Silla Amiga",
