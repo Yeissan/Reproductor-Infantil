@@ -44,7 +44,7 @@ const songs = [
   {
     title: "Lampara de ilusiones",
     artist: "SkyBooks",
-    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Lampara de iluciones.mp3",
+    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Lampara.mp3",
     cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Lampara de ilusiones.png"
   },
   {
