@@ -54,10 +54,10 @@ const songs = [
     cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La cuchara que viene y va.png"
   },
   {
-    title: "El patito feo",
+    title: "El balón pum pum",
     artist: "SkyBooks",
-    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El%20patito%20feo.mp3",
-    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El%20patito%20feo.png"
+    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El balon.mp3",
+    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El balon.png"
   },
   {
     title: "Las ruedas del autobús",
