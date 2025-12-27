@@ -15,7 +15,7 @@ const songs = [
     title: "El Lápiz que Nació del Árbol",
     artist: "SkyBooks+AI",
     audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El Lápiz que Nació del Árbol.mp3",
-    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El Lapiz.png"
+    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El lapiz.png"
   },
   {
     title: "La Silla Amiga",
@@ -44,7 +44,7 @@ const songs = [
   {
     title: "Lampara de ilusiones",
     artist: "SkyBooks",
-    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Lampara.mp3",
+    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/lampara.mp3",
     cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Lampara de ilusiones.png"
   },
   {
