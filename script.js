@@ -9,13 +9,13 @@ const songs = [
     title: "La herramienta Mágica",
     artist: "SkyBooks+AI",
     audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La%20herramienta%20Magica.mp3",
-    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La%20herramienta%20Magica.png"
+    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La herramienta Magica.png"
   },
   {
     title: "El Lápiz que Nació del Árbol",
     artist: "SkyBooks+AI",
     audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El Lápiz que Nació del Árbol.mp3",
-    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El Lápiz.png"
+    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El Lapiz.png"
   },
   {
     title: "La Silla Amiga",
