@@ -60,10 +60,10 @@ const songs = [
     cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El balon.png"
   },
   {
-    title: "Las ruedas del autobús",
+    title: "La Gorra para cada ocasión",
     artist: "SkyBooks",
-    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Las%20ruedas%20del%20autobús.mp3",
-    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Las%20ruedas%20del%20autobús.png"
+    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La gorra.mp3",
+    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La gorra.png"
   },
   {
     title: "Estrellita dónde estás",
