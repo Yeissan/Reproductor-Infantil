@@ -62,7 +62,7 @@ const songs = [
   {
     title: "La Gorra para cada ocasión",
     artist: "SkyBooks",
-    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La gorra.mp3",
+    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La%20gorra.mp3",
     cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La gorra.png"
   },
   {
