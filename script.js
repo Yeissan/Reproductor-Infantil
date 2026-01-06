@@ -60,28 +60,28 @@ const songs = [
     cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El balon.png"
   },
   {
-    title: "La Gorra para cada ocasión",
+    title: "La Gorra",
     artist: "SkyBooks",
     audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La%20gorra.mp3",
     cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La gorra.png"
   },
   {
-    title: "Estrellita dónde estás",
+    title: "Telefono",
     artist: "SkyBooks",
-    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Estrellita%20dónde%20estás.mp3",
-    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Estrellita%20dónde%20estás.png"
+    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/el telefono.mp3",
+    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Telefono.png"
   },
   {
-    title: "La familia dedo",
+    title: "Auto",
     artist: "SkyBooks",
-    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La%20familia%20dedo.mp3",
-    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/La%20familia%20dedo.png"
+    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/El Auto.mp3",
+    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Auto.png"
   },
   {
-    title: "Cumpleaños feliz infantil",
+    title: "Computadora",
     artist: "SkyBooks",
-    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Cumpleaños%20feliz%20infantil.mp3",
-    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Cumpleaños%20feliz%20infantil.png"
+    audio: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Computadora.mp3",
+    cover: "https://raw.githubusercontent.com/Yeissan/Musica-Infantil/main/Computadora.png"
   },
   {
     title: "La gallina turuleca",
